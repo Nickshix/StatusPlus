@@ -1,12 +1,12 @@
 # StatusPlus
 
 this is a plugin that manage and set the Player status, and exceeds the limit imposed by the server-sided config of JinRyuu mods.
-### Is tested on
+
+### It is tested on
 | Name | Version |
 | --- | --- |
 | KCauldron | 1448.143 |
 | Thermos | LATEST Version |
-
 
 It has any bugs, and if you can contribute, will be of a great help!
 
