@@ -4,7 +4,7 @@ this is a plugin that manage and set the Player status, and exceeds the limit im
 ### Is tested on
 | Name | Version |
 | --- | --- |
-| KCauldron | 1448-143 |
+| KCauldron | 1448.143 |
 | Thermos | LATEST Version |
 
 
@@ -14,7 +14,7 @@ It has any bugs, and if you can contribute, will be of a great help!
 
 If you want to use this plugin, or help in the development, you can clone this project and build!
 
-#### Windows
+#### Build
 ```
 mvn install
 ```
