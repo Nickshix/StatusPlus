@@ -22,3 +22,16 @@ mvn install
 It will build the project, and publish it on **mavenLocal**.
 
 You can get the plugin jar in ${project_folder}/target/StatusPlus-1.0.0-SNAPSHOT.jar
+
+####Setting Up for development
+Put This in your pom.xml
+```xml
+    <dependency>
+        <groupId>com.rafaelrain.statusplus</groupId>
+        <artifactId>core</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <scope>compile</scope>
+    </dependency>
+```
+
+And this project has an Example project. Please check the code.
