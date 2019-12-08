@@ -4,6 +4,8 @@ import org.bukkit.plugin.java.JavaPlugin
 
 class StatusPlus : JavaPlugin() {
 
+    // TODO test TP
+
     override fun onLoad() {
         logger.info("Carregando plugin...")
         INSTANCE = this

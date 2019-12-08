@@ -7,6 +7,8 @@ import org.bukkit.entity.Player
 
 class StatusManager(private val player: Player) {
 
+    //
+
     private val nbtManager: NBTManager = PowerNBT.getApi()
     private val data: NBTCompound = nbtManager.read(player)
     private val persisted: NBTCompound = data.getCompound("ForgeData")

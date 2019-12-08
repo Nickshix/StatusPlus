@@ -7,5 +7,6 @@ enum class StatusType(name: String, val tag: String) {
     CON("CON", "jrmcCnsI"),
     WIL("WIL", "jrmcWilI"),
     MND("MND", "jrmcIntI"),
-    SPI("SPI", "jrmcCncI")
+    SPI("SPI", "jrmcCncI"),
+    TP("TP", "jrmcTpint")
 }

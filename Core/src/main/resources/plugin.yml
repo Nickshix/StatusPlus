@@ -1,0 +1,6 @@
+name: StatusPlusCore
+version: ${project.version}
+main: com.rafaelrain.statusplus.core.StatusPlus
+authors: [Rafaelrain]
+description: Core do StatusPlus
+website: https://gitlab.com/Rafaelrain

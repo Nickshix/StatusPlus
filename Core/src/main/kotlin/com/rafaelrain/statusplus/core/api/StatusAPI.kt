@@ -6,6 +6,8 @@ import org.bukkit.entity.Player
 
 object StatusAPI {
 
+    // TODO test TP
+
     @JvmStatic
     fun getStatus(player: Player, type: StatusType): Int {
         return StatusManager(player).get(type.tag)
