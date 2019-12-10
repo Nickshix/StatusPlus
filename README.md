@@ -50,7 +50,7 @@ You can get the plugin jar in ${project_folder}/target/StatusPlus-1.0.0-SNAPSHOT
     
     dependencies {
 	    implementation 'com.github.RafaelrainBR:StatusPlus:master-SNAPSHOT'
-	}
+    }
 ```
 
 And this project has an Example project. Please check the code.
